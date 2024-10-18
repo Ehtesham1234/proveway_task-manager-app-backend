@@ -36,37 +36,43 @@ This is the backend for a React task management app. The backend is built using 
    cd proveway_task-manager-app-backend
 
 
-nstall dependencies:
+### install dependencies:
+
 npm install
 
-Create a .env file in the root directory and add the following environment variables:
-MONGODB_URI=your_mongodb_uri
-ACCESS_TOKEN_SECRET=your_access_token_secret
-ACCESS_TOKEN_EXPIRY=your_access_token_expiry
+## Create a .env file in the root directory and add the following environment variables:
 
-Start the server:
-npm start
+  - MONGODB_URI=your_mongodb_uri
+  - ACCESS_TOKEN_SECRET=your_access_token_secret
+  - ACCESS_TOKEN_EXPIRY=your_access_token_expiry
 
-The server will be running on http://localhost:5000.
-API Endpoints
-Authentication
-POST /api/v1/signup - User signup
-POST /api/v1/login - User login
-POST /api/v1/logout - User logout
-GET /api/v1/user - Verify user
-Tasks
-POST /api/v1/tasks - Create a task
-GET /api/v1/tasks - Get all tasks
-PUT /api/v1/tasks/:id - Update a task
-DELETE /api/v1/tasks/:id - Delete a task
-Categories
-POST /api/v1/categories - Create a category
-GET /api/v1/categories - Get all categories
-DELETE /api/v1/categories/:id - Delete a category
-Error Handling
-Custom API errors are handled using the ApiError class. Errors are logged to the console and appropriate error responses are sent to the client.
+## Start the server:
+ npm start
 
-Hosted on Render
-The backend is hosted on Render: https://proveway-task-manager-app-backend.onrender.com
+## The server will be running on http://localhost:5000.
 
-Note: It is a free instance, so it will spin down with inactivity, which can delay requests by 50 seconds or more.
+
+### API Endpoints
+
+
+## Authentication
+- POST /api/v1/signup - User signup
+- POST /api/v1/login - User login
+- POST /api/v1/logout - User logout
+- GET /api/v1/user - Verify user
+## Tasks
+- POST /api/v1/tasks - Create a task
+- GET /api/v1/tasks - Get all tasks
+- PUT /api/v1/tasks/:id - Update a task
+- DELETE /api/v1/tasks/:id - Delete a task
+## Categories
+- POST /api/v1/categories - Create a category
+- GET /api/v1/categories - Get all categories
+- DELETE /api/v1/categories/:id - Delete a category
+## Error Handling
+ Custom API errors are handled using the ApiError class. Errors are logged to the console and appropriate error responses are sent to the client.
+
+### Hosted on Render
+# The backend is hosted on Render: https://proveway-task-manager-app-backend.onrender.com
+
+# Note: It is a free instance, so it will spin down with inactivity, which can delay requests by 50 seconds or more.
