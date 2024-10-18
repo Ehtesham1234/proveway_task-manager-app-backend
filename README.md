@@ -1,4 +1,4 @@
-# proveway_task-manager-app-backend# Task Management App Backend
+# Task Management App Backend
 
 This is the backend for a React task management app. The backend is built using Node.js, Express, and MongoDB.
 
@@ -32,8 +32,8 @@ This is the backend for a React task management app. The backend is built using 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/task-management-backend.git
-   cd task-management-backend
+   git clone https://github.com/Ehtesham1234/proveway_task-manager-app-backend.git
+ 
    
 Install dependencies:
 npm install
@@ -65,9 +65,6 @@ DELETE /api/v1/categories/:id - Delete a category
 Error Handling
 Custom API errors are handled using the ApiError class. Errors are logged to the console and appropriate error responses are sent to the client.
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License.
-
+##Hosted on render
+  https://proveway-task-manager-app-backend.onrender.com
+It is free instance So it will spin down with inactivity, which can delay requests by 50 seconds or more
