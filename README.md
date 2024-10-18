@@ -1,6 +1,6 @@
 # proveway_task-manager-app-backend# Task Management App Backend
 
-This is the backend for a React Native task management app. The backend is built using Node.js, Express, and MongoDB.
+This is the backend for a React task management app. The backend is built using Node.js, Express, and MongoDB.
 
 ## Features
 
