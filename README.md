@@ -33,9 +33,10 @@ This is the backend for a React task management app. The backend is built using 
 
    ```bash
    git clone https://github.com/Ehtesham1234/proveway_task-manager-app-backend.git
- 
-   
-Install dependencies:
+   cd proveway_task-manager-app-backend
+
+
+nstall dependencies:
 npm install
 
 Create a .env file in the root directory and add the following environment variables:
@@ -65,6 +66,7 @@ DELETE /api/v1/categories/:id - Delete a category
 Error Handling
 Custom API errors are handled using the ApiError class. Errors are logged to the console and appropriate error responses are sent to the client.
 
-##Hosted on render
-  https://proveway-task-manager-app-backend.onrender.com
-It is free instance So it will spin down with inactivity, which can delay requests by 50 seconds or more
+Hosted on Render
+The backend is hosted on Render: https://proveway-task-manager-app-backend.onrender.com
+
+Note: It is a free instance, so it will spin down with inactivity, which can delay requests by 50 seconds or more.
